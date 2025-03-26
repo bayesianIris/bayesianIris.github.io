@@ -102,7 +102,7 @@ avatar:
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: "bayesianIris.github.io/round.png" # string, local or CORS resources
+social_preview_image: "round.png" # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
