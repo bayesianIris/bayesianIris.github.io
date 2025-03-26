@@ -155,13 +155,13 @@ baseurl: ""
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
+  math_engine: mathjax  # 添加此行
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
-  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+  syntax_highlighter_opts:
     css_class: highlight
-    # default_lang: console
     span:
-      line_numbers: true
+      line_numbers: false
     block:
       line_numbers: true
       start_line: 1
